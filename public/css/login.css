@@ -1,0 +1,17 @@
+.left-half {
+    background-image: url('../imgs/backgound-login.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.right-half {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.no-border {
+    border: none;
+    box-shadow: none;
+}
