@@ -22,3 +22,4 @@ Sistema de reserva de salas desenvolvido em PHP utilizando o padrão MVC.
 1. Clone o repositório
 2. Crie o banco com o arquivo database.sql na raiz do projeto
 3. Configure o Banco: Configure o banco com os dados em Models/DataBase.php
+4. Execute: na pasta do projeto execute o terminal e digite:  php -S localhost:8000
