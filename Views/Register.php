@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
-    <link rel="stylesheet" href="../public/css/geral.css">
-    <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="./public/css/geral.css">
+    <link rel="stylesheet" href="./public/css/login.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -44,7 +44,7 @@
                                 <input class="btn btn-primary btn-block" type="submit" value="Cadastrar">
                             </div>
                         </form>
-                        <p class="text-center mt-3">Já é registrado? <a href="./Views/Login.php">Entrar</a></p>
+                        <p class="text-center mt-3">Já é registrado? <a href="./index.php?action=login">Entrar</a></p>
                     </div>
                 </div>
             </div>

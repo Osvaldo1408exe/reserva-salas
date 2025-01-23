@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../public/css/geral.css">
-    <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="./public/css/geral.css">
+    <link rel="stylesheet" href="./public/css/login.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Entrar</title>
@@ -18,7 +18,7 @@
                         <h2>Acesse sua conta</h2>
                     </div>
                     <div class="card-body">
-                        <form action="../index.php?action=login" method="post">
+                        <form action="./index.php?action=login" method="post">
                             <div class="form-group no-border">
                                 <label for="email">Email:</label>
                                 <input type="email" class="form-control " id="email" name="email" required>
@@ -31,7 +31,7 @@
                                 <input class="btn btn-primary btn-block" type="submit" value="Entrar">
                             </div>
                         </form>
-                        <p class="text-center mt-3">Não possui uma conta? <a href="../index.php?action=register">Registrar</a></p>
+                        <p class="text-center mt-3">Não possui uma conta? <a href="./index.php?action=register">Registrar</a></p>
                     </div>
                 </div>
             </div>
